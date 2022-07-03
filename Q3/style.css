@@ -1,0 +1,17 @@
+body{
+    background-color: #eefeff;
+}
+form{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+#firstName{
+    margin-bottom: 2rem;
+}
+#btn-1{
+   margin-top: 3rem;
+   margin-left: 10rem;
+   border:1px rgb(105, 172, 200) solid ;
+   background-color: #dff9fb;
+   font-weight: 400;
+}
