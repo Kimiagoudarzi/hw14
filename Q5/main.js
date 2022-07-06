@@ -9,15 +9,12 @@ $(document).ready(function(){
     };   
 // get
 function addTotable(data){
-    let input = `<input class="form-check-input me-2" type="checkbox"></input>`;
-    let div = `<div class="d-flex align-items-center">${input}${data.name}</div>`;
+    let div = `<div class="d-flex align-items-center">${data.name}</div>`;
     let aTag = `<a href="#!" data-mdb-toggle="tooltip" title="Remove item">
     <i class="fas fa-times text-primary"></i>
     </a>`
     let li = `<li class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">${div}${aTag}</li>`;
     $(".list-group").append(li);  
     }
-    $("#addbtn").click(function(){
-        return getData();
-    });
+    getData();
 });
